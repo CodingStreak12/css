@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic 1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, td{
+            border: 10px solid black;
+            border-collapse: collapse;
+        }
+        .green{
+            color: green;
+        }
+        #divi{
+            color:chocolate !important;
+        }
+        p{
+            color: blue !important; 
+        }
+        
+        .divc{
+            color: red;
+        }
+        .small{
+            font-size: smaller;
+        }
+        .large{
+            
+            font-size: 40px;
+        }
+        h1{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is for styling table  -->
+    <table>
+        <tr>
+            <td>Monday</td>
+            <td>Tuesday</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <!-- This is for demonstrating class selector -->
+
+    <p class="green">This is firse green paragraph</p>
+    <p class = "green">This is second green paragraph</p>
+    <p>This is third blue paragraph</p>
+    <h1 class="small">This is heading 1</h1>
+    <h2 class="small">This is heading 2</h2>
+    <h3 class="small">This is heading 3</h3>
+    <h4 class="large">This is heading 4</h4>
+    <h5 class="large">This is heading 5</h5>
+    <h6 class="large">This is heading 6</h6>
+
+    
+    <p class="divc" id="divi">Hello man check how important works</p>
+    <h2 style="color: orange">This is just to demostrate how priority of styling</h2>
+    
+</body>
+</html>

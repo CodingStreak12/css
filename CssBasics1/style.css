@@ -1,0 +1,4 @@
+/* This is just there to see the priority of stylesheets in css*/
+h1{
+    color: black;
+}
