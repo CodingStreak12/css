@@ -1,0 +1,27 @@
+.box1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(#EECDA3, #EF629F);
+    background-image: linear-gradient(to right, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to left, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to top, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to bottom right, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to top right, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to top left, #EECDA3 30%, #EF629F);
+    background-image: linear-gradient(to bottom left, #EECDA3 30%, #EF629F);
+
+    /* Indian flag */
+    background-image: linear-gradient(orange 33%, white 33%, white 66%, green 66%);
+    
+}
+.box2{
+    width: 200px;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 30px;
+    background-image: radial-gradient(#EECDA3, #EF629F);
+    background-image: radial-gradient(circle, #EECDA3 50%, #EF629F);
+    background-image: radial-gradient(orange 33%, white 33%,white 66%, green);
+    background-image: repeating-radial-gradient(orange 10%, white 20%, white 30%, green 40%, green 60%);
+}
