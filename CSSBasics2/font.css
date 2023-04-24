@@ -1,0 +1,14 @@
+.box1{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    
+    box-sizing: border-box;
+    padding: 0px 10px;
+    font-family: "monaco", "monospace";
+    font-size: 120%;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px #ababab;
+
+}
