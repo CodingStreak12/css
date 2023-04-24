@@ -25,3 +25,30 @@
     background-image: radial-gradient(orange 33%, white 33%,white 66%, green);
     background-image: repeating-radial-gradient(orange 10%, white 20%, white 30%, green 40%, green 60%);
 }
+.textShadow{
+    font-size: 100px;
+    text-shadow: 3px 3px 5px #EECDA3, 4px 4px 5px #EF629F;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px;
+    background-image: linear-gradient(#EECDA3, #EF629F);
+    box-shadow: 3px 3px 5px #EECDA3, 4px 4px 5px #EF629F;
+}
+.boxBorder{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border-color: blue;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: solid;
+    border-style: double;
+    border-style: outset;
+    outline: 1px solid red;
+    outline-offset: 15px;
+
+
+}
