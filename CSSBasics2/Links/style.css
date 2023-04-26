@@ -1,0 +1,28 @@
+.first{
+    text-decoration: none;
+}
+.first:link{
+    color: red;
+}
+.first:visited{
+    color: blue;
+}
+.first:hover{
+    color: green;
+}
+.first:active{
+    color: yellow;
+}
+.second:link, .second:visited{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+.second:hover{
+    background-color: grey;
+    color: white;
+}
