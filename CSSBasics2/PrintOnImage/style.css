@@ -1,0 +1,35 @@
+div{
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+img{
+    width: 800px;
+    height: 800px;
+}
+p{
+    position: absolute;
+    color: white;
+}
+.one{
+    top: 0px;
+    left: 0px;
+}
+.two{
+    top: 0px;
+    right: 0px;
+}
+.three{
+    bottom: 0px;
+    left: 0px;
+    
+}
+.four{
+    bottom: 0px;
+    right: 0px;
+}
+.five{
+    top:400px;
+    left:300px;
+}
