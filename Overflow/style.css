@@ -1,0 +1,26 @@
+.box1{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: visible;
+}
+.box2{
+    margin-top: 80px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.box3{
+    margin-top: 80px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.box4{
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: auto;
+}
