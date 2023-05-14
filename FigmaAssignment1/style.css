@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .container{
     width: 100vw;
     background-color: #E5E5E5;
     font-family: 'Raleway', sans-serif;
+    
 }
 header{
     width: 100%;
@@ -66,3 +70,56 @@ nav a{
     
     font-size: 1.2rem;
 }
+
+#section1{
+    width: 100%;
+    
+}
+#section1 .left{
+    width: 50%;
+    float: left;
+    
+    height: 350px;
+    
+    
+}
+.left-container{
+    margin: 0px 100px;
+    margin-top: 50px;
+}
+#section1 .left h2{
+    display: inline-block;
+    width: auto;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+    
+}
+#section1 .left hr{
+    display: block;
+    margin-bottom: 20px;
+    width: 180px;
+    
+}
+
+.left-container p{
+    font-size: 1.1rem;
+    font-weight: 550;
+    line-height: 1.2;
+    word-spacing: 4px;
+}
+
+
+#section1 .right{
+    width: 50%;
+    height: 350px;
+    float: left;
+    
+    
+}
+#section1 .right img{
+    height: 100%;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 25%;
+}
+
