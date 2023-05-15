@@ -1,125 +1,157 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-.container{
-    width: 100vw;
-    background-color: #E5E5E5;
-    font-family: 'Raleway', sans-serif;
-    
+.container {
+  width: 100vw;
+  background-color: #e5e5e5;
+  font-family: "Raleway", sans-serif;
 }
-header{
-    width: 100%;
-    height: 100px;
+header {
+  width: 100%;
+  height: 100px;
 }
-.logo{
-    float: left;
-   
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 0px 50px;
+.logo {
+  float: left;
 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
 }
-.logo img{
-    width: 70px;
-    height: 60px;
+.logo img {
+  width: 70px;
+  height: 60px;
 }
-nav{
-    height: 100%;
-    width: calc(100vw - 400px);
-    
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav {
+  height: 100%;
+  width: calc(100vw - 400px);
+
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.button{
-    width: 220px;
-    height: 100%;
-    float:left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  width: 220px;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.button a{
-    text-align: center;
-    padding: 1rem 0.6rem;
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    background-color: #4E5DC0;
-    border-radius: 5px;
-    border: none;
-    width: 150px;
+.button a {
+  text-align: center;
+  padding: 1rem 0.6rem;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #4e5dc0;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
 }
-.button a:hover{
-    cursor: pointer;
-    background-color: #4351A6;
+.button a:hover {
+  cursor: pointer;
+  background-color: #4351a6;
 }
-nav a{
-    text-decoration: none;
-    color: #4E5DC0;
-    display: inline-block;
-    margin: auto;
-    
-    font-size: 1.2rem;
+nav a {
+  text-decoration: none;
+  color: #4e5dc0;
+  display: inline-block;
+  margin: auto;
+  font-size: 1.2rem;
 }
 
-#section1{
-    width: 100%;
-    
+#section1 {
+  width: 100%;
+  margin-top: 80px;
 }
-#section1 .left{
-    width: 50%;
-    float: left;
-    
-    height: 350px;
-    
-    
+#section1 .left {
+  width: 50%;
+  float: left;
+
+  height: 350px;
 }
-.left-container{
-    margin: 0px 100px;
+.left-container {
+  margin: 0px 100px;
+  margin-top: 50px;
+}
+#section1 .left h2 {
+  display: inline-block;
+  width: auto;
+  word-spacing: 4px;
+  margin-bottom: 20px;
+}
+#section1 .left hr {
+  display: block;
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+.left-container p {
+  font-size: 1.1rem;
+  font-weight: 550;
+  line-height: 1.2;
+  word-spacing: 4px;
+}
+
+#section1 .right {
+  width: 50%;
+  height: 350px;
+  float: left;
+}
+#section1 .right img {
+  height: 100%;
+  border-radius: 30px;
+  display: inline-block;
+  margin-left: 25%;
+}
+
+#section2 {
+  width: 100%;
+  margin-top: 500px;
+}
+#section2 .left {
+  width: 50%;
+  height: 350px;
+  float: left;
+}
+#section2 .left img{
+    height: 100%;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 100px;
+}
+#section2 .right {
+  width: 50%;
+  float: left;
+  height: 350px;
+}
+.right-container{
+    margin-left: 25%;
+    margin-right: 100px;
     margin-top: 50px;
 }
-#section1 .left h2{
+#section2 .right h2{
     display: inline-block;
     width: auto;
     word-spacing: 4px;
     margin-bottom: 20px;
-    
 }
-#section1 .left hr{
+#section2 .right hr {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     width: 180px;
-    
-}
-
-.left-container p{
+  }
+  .right-container p {
     font-size: 1.1rem;
     font-weight: 550;
     line-height: 1.2;
     word-spacing: 4px;
-}
-
-
-#section1 .right{
-    width: 50%;
-    height: 350px;
-    float: left;
-    
-    
-}
-#section1 .right img{
-    height: 100%;
-    border-radius: 30px;
-    display: inline-block;
-    margin-left: 25%;
-}
-
+  }

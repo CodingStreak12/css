@@ -1,0 +1,38 @@
+:root{
+    --dark-allo: skyblue;
+}
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: #f2f2f2;
+    border: 3px solid black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: var(--dark-allo);
+    border: 2px solid grey;
+    margin: 20px;
+    /* transition: background-color 2s ease-in 2s, transform 2s ease-in; */
+    animation-name: nitin;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease;
+
+
+
+}
+.box:hover{
+    background-color: lightpink;    
+}
+
+
+@keyframes nitin{
+    from{
+        background-color: lightpink;
+    }
+    
+    to{
+        background-color: red;
+    }
+}
