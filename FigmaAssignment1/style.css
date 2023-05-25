@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
 
 :root{
   --page-blue: #4E5DC0;
@@ -12,14 +13,14 @@
 .wrapper{
   background-color: #e5e5e5;
   height: 100vh;
-  overflow:hidden;
+  overflow-x:hidden;
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85vw;
+  width: 1200px;
   margin: 2rem auto;
   font-family: 'Raleway', sans-serif;
 }
@@ -66,3 +67,65 @@ nav button{
 nav button:hover{
   background-color: var(--page-blue-hover);
 }
+
+.section-1{
+  font-family: 'Roboto Flex', sans-serif;
+  width: 1200px;
+  margin: 7rem auto;
+  display: flex;
+  gap: 12rem;
+}
+h2{
+  
+  font-size: 2.4rem;
+}
+.heading{
+  position: relative;
+  
+  display: inline-block;
+  margin-bottom: 4rem;
+}
+.section-left .heading::after{
+  content: "";
+  position: absolute;
+  width: 85% ;
+  background-color: black;
+  height: 1px;
+  bottom: -35%;
+  left: 0;
+}
+.section{
+  font-size: 1.4rem;
+  line-height: 34px;
+  opacity: 50%;
+  font-weight: 500;
+  text-align: justify;
+}
+.section-1 .section-right img{
+  width:500px;
+  border-radius: 25px;
+}
+
+.heading-2::after{
+  content: "";
+  position: absolute;
+  width: 115% ;
+  background-color: black;
+  height: 1px;
+  bottom: -35%;
+  left: 0;
+}
+.section-left img{
+  width: 450px;
+  border-radius: 30px;
+  
+}
+.section-2 .section-left{
+  margin-right: 5rem;
+}
+
+footer{
+  background-color: white;
+}
+
+
